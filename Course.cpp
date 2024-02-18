@@ -8,7 +8,6 @@ Course::Course(const char* name, int grade):name(nullptr){
     //This function is a constructor with parameters = initialize the course accordingly
     this->setName(name);
     this->setGrade(grade);
-
 }
 int Course::getGrade()const{
     //This function return grade in course
